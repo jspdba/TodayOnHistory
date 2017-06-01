@@ -55,7 +55,6 @@ function fetchDetail(e_id) {
 function getDetail(e_id) {
     return fetchDetail(e_id)
         .then(function(res) {
-            // console.log(res.data.result)
             return res.data.result
         })
         .catch(function(err) {

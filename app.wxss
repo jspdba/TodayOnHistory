@@ -1,8 +1,8 @@
 /**app.wxss**/
 @font-face
 {
-font-family: iconfont;
-src: url('res/iconfont.ttf')
+/*font-family: iconfont;*/
+/*src: url('res/iconfont.ttf')*/
 }
 /* Row
 ----------------------------------------------*/

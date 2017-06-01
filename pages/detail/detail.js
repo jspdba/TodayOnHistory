@@ -12,12 +12,14 @@ Page({
         self.setData({
             detail: result[0]
         })
+        wx.setNavigationBarTitle({
+          title: result[0].title
+        })
     })
   },
   onReady:function(){
-    // 页面渲染完成
     wx.setNavigationBarTitle({
-        title: this.data.detail.title
+      title: "历史今日"
     })
     this.setData({
         hidden: true
